@@ -1,0 +1,118 @@
+---
+name: Game Status Report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Game Compatibility
+description: Report a game's compatibility status on AetherPS4
+body:
+  - type: markdown
+    attributes:
+      value: |
+         ## Important: Read First
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I've tested on the [latest release](https://github.com/Leviidev/AetherPS4/releases).
+          required: true
+        - label: I've made sure there are no other issues opened for this game and operating system combo.
+          required: true
+        - label: My game dump comes from a copy of the game I own (if it is an actual PS4 game and not homebrew)
+          required: true
+        - label: My game dump is unmodified, I haven't enabled any game patches and I didn't repackage my game dump to a FPKG.
+          required: true
+        - label: I did not manually enable any settings that would change emulation behavior (such as "isPS4Pro", "isDevKit", "Vblank Frequency" etc).
+          required: true          
+           
+  - type: input
+    id: game-name
+    attributes:
+      label: Game Name
+      placeholder: "Game Name"
+    validations:
+      required: true
+
+  - type: input
+    id: game-serial
+    attributes:
+      label: Game serial
+      placeholder: "e.g. CUSA10005"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      placeholder: "e.g. v01.00"
+    validations:
+      required: true
+
+  - type: input
+    id: emulator-version
+    attributes:
+      label: Used emulator's version
+      placeholder: "e.g v1.0.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: emulation-status
+    attributes:
+      label: Current status
+      options:
+        - Nothing
+        - Boots
+        - Menus
+        - Ingame
+        - Playable
+    validations:
+      required: true
+
+  - type: input
+    id: soc
+    attributes:
+      label: System-On-Chip
+      placeholder: What SoC your device has (M1 or A17 Pro for example)
+    validations:
+      required: true
+
+  - type: textarea
+    id: emulation-error
+    attributes:
+      label: Error
+      placeholder: Don't describe what is happening but copy and paste the error in the last lines of log (Often it starts with [Debug] <Critical>)
+    validations:
+      required: true
+
+  - type: textarea
+    id: emulation-description
+    attributes:
+      label: Description
+      placeholder: What can you see, if the sound is good, graphics, glitches, etc ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Add screenshots or screen recordings here if the game is rendering or has audio output.
+      placeholder: Drag and drop the images/screenshots/videos onto the text area.
+    validations:
+      required: false
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Log File
+      description: Log files can be found in the user/log folder. Make sure the logging option "sync" is ticked in the emulator settings.
+      placeholder: Drag and drop the log file onto the text area.
+    validations:
+      required: false
