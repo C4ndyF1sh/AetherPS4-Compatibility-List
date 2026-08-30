@@ -2,7 +2,7 @@
 A compatibility list for AetherPS4, a PS4 for iOS emulator
 
 <p align="center">
-  <img src="AetherPS4-iOS/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" width="140" alt="AetherPS4 logo">
+  <img src="AetherPS4-Compatibility-List/AppIcon-1024.png" width="140" alt="AetherPS4 logo">
 </p>
 
 - Playable: Games that can be played without any major issue.
