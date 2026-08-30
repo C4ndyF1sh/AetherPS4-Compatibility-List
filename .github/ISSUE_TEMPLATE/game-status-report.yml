@@ -1,7 +1,7 @@
 name: Game Status Report
 description: Report a game's compatibility status on AetherPS4
-title: "[Compatibility]: "
-labels: ["compatibility"]
+title: ""
+labels: [""]
 body:
   - type: markdown
     attributes:
