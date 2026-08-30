@@ -1,7 +1,9 @@
 # AetherPS4-Compatibility-List
 A compatibility list for AetherPS4, a PS4 for iOS emulator
 
-<img width="1024" height="1024" alt="AppIcon-1024" src="https://github.com/user-attachments/assets/2e8dbce4-7bef-4b9a-9f53-b9f8ce176b1c" />
+<p align="center">
+  <img src="AetherPS4-iOS/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" width="140" alt="AetherPS4 logo">
+</p>
 
 - Playable: Games that can be played without any major issue.
 - Ingame: Games that can reach gameplay but have game-breaking issues.
