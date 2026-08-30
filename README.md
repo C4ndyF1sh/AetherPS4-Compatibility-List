@@ -8,4 +8,4 @@ A compatibility list for AetherPS4, a PS4 for iOS emulator
 - Boots: Games that show visual or audio output but freeze or crash before reaching the menu.
 - Nothing: Games that crash when trying to launch or hang on a black screen.
 
->[AetherPS4](https://github.com/Leviidev/AetherPS4/releases/tag/v1.0.1_release)
+>[AetherPS4](https://github.com/Leviidev/AetherPS4)
