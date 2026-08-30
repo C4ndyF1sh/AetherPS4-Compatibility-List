@@ -81,7 +81,7 @@ body:
     id: emulation-error
     attributes:
       label: Error
-      placeholder: "Don't describe what is happening but copy and paste the error in the last lines of log (Often it starts with [Debug] <Critical>)"
+      placeholder: "If you can, please upload the full crash log from start to finish."
     validations:
       required: true
 
