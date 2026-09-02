@@ -1,5 +1,5 @@
 # AetherPS4-Compatibility-List
-A compatibility list for AetherPS4, a PS4 for iOS emulator
+A compatibility list for AetherPS4, a PS4 emulator for iOS
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d20b1ab6-4b87-4015-ae84-9fbae23dba50" width="140" alt="AetherPS4 logo">
